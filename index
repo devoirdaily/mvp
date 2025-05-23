@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParfaitLoop – Nutritious Meals on the Go</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ParfaitLoop</h1>
+    <p>Healthy meals. Delivered. Right from your ride.</p>
+  </header>
+
+  <section class="mission">
+    <h2>Our Mission</h2>
+    <p>
+      We make access to nutritious, affordable meals seamless for Camden residents—especially those affected by food deserts.
+      Meals are delivered during your regular ride—fresh, healthy, and affordable.
+    </p>
+  </section>
+
+  <section class="order">
+    <h2>Order Now</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" required>
+
+      <label for="phone">Phone Number (to confirm by SMS)</label>
+      <input type="tel" name="phone" required>
+
+      <label for="order">Your Order (Parfait, Add-ins, etc.)</label>
+      <textarea name="order" rows="4" required></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <section class="pay">
+    <h2>Pay Securely</h2>
+    <p>Click below to pay via Stripe:</p>
+    <a href="https://buy.stripe.com/your-checkout-link" target="_blank" class="pay-button">Pay Now</a>
+  </section>
+
+  <footer>
+    <p>Built with ❤️ for Camden | <a href="#">Instagram</a> | <a href="#">Contact</a></p>
+  </footer>
+</body>
+</html>
