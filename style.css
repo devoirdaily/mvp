@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background: #1e90ff;
+  background: #007b7b;
   color: white;
   text-align: center;
   padding: 2rem;
@@ -23,7 +23,7 @@ section {
 }
 
 h2 {
-  color: #1e90ff;
+  color: #007b7b;
 }
 
 form label {
@@ -43,7 +43,7 @@ form textarea {
 button,
 .pay-button {
   display: inline-block;
-  background: #1e90ff;
+  background: #007b7b;
   color: white;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
@@ -56,20 +56,20 @@ button,
 footer {
   text-align: center;
   padding: 1rem;
-  background: #eee;
+  background: #005f5f
   font-size: 0.9rem;
 }
 .instructions {
   max-width: 600px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: #eaf6ff;
-  border-left: 5px solid #1e90ff;
+  background: #e0f7f7
+  border-left: 5px solid #22c55e;
   border-radius: 10px;
 }
 
 .instructions h2 {
-  color: #1e90ff;
+  color: #007b7b;
 }
 
 .instructions ul {
@@ -83,4 +83,8 @@ footer {
 .map-placeholder {
   margin-top: 1rem;
   font-style: italic;
+}
+
+.main-content {
+  text-align: center;
 }
