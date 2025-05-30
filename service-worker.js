@@ -4,11 +4,11 @@ const urlsToCache = [
   '/index.html',
   '/about.html',
   '/order.html',
-  '/favicon/favicon-16x16.png',
-  '/favicon/favicon-32x32.png',
-  '/favicon/android-chrome-192x192.png',
-  '/favicon/android-chrome-512x512.png',
-  '/favicon/apple-touch-icon.png',
+  '/Favicon/favicon-16x16.png',
+  '/Favicon/favicon-32x32.png',
+  '/Favicon/android-chrome-192x192.png',
+  '/Favicon/android-chrome-512x512.png',
+  '/Favicon/apple-touch-icon.png',
   // add any other static assets as needed
 ];
 
