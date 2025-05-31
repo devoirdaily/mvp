@@ -333,23 +333,16 @@
     });
 
     // Navigation functionality
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const href = this.getAttribute('href');
-        
-        if (href === '#home') {
-          window.location.href = 'index.html';
-        } else if (href === '#about') {
-          // Stay on current page, scroll to top
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        } else if (href === '#order') {
-          window.location.href = 'order.html';
-        } else {
-          // Handle internal anchor links
-          const target = document.querySelector(href);
-          if (target) {
-            target.scrollIntoView({
+   document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    
+    // Only prevent default for internal anchor links (those starting with #)
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({
               behavior: 'smooth',
               block: 'start'
             });
