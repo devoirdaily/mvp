@@ -8,7 +8,7 @@ const urlsToCache = [
   '/Favicon/favicon-32x32.png',
   '/Favicon/android-chrome-192x192.png',
   '/Favicon/android-chrome-512x512.png',
-  '/Favicon/apple-touch-icon.png',
+  '/Favicon/apple-icon.png',
   // add any other static assets as needed
 ];
 
